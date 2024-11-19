@@ -21,5 +21,5 @@ def get_card_image(card_name: str):
 if __name__ == '__main__':
 
     app.run(
-        debug=True, load_dotenv=True
+        debug=False, load_dotenv=True
     )
