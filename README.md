@@ -1,0 +1,1 @@
+-   Site de Referência das Imagens: https://ygoprodeck.com/card-database/?num=24&offset=0
