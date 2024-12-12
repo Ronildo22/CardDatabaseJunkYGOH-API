@@ -1,7 +1,13 @@
 [MAIN]
 
 disable=
-      W0703 # Catching too general exception Exception
+      W0703, # catching too general exception Exception
+      C0115, # missing-class-docstring
+      C0116, # missing-function-docstring
+      C0114, # missing-module-docstring
+      C0303, # trailing-whitespace
+      C0209, # consider-using-f-string
+      W0012, # unknown-option-value
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
